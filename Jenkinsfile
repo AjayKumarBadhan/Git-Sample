@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "✅ Just a simple build stage running."
-                sh 'notepad hello.txt'
+                sh 'type hello.txt'
             }
         }
 
